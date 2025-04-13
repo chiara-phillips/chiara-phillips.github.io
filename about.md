@@ -32,8 +32,9 @@ Feel free to send a message to inquire about a project, speaking opportunity, co
     <textarea name="message" rows="5" required class="mt-1 block w-full border rounded-md p-2"></textarea>
   </label>
 
-  <button type="submit" class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
-    Send
+  <button type="submit" class="px-4 py-2 bg-slate-800 text-white dark:bg-slate-200 dark:text-slate-900 rounded hover:opacity-90 font-semibold">
+  Send
   </button>
+
   <input type="hidden" name="_next" value="https://chiara-phillips.github.io/thanks" />
 </form>
