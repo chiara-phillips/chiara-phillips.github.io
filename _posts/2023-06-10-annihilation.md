@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Walking the trail that inspired "Annihilation"
-image: /assets/images/annihilation.png
+image: /assets/images/annihilation.jpg
 tags:
   - portfolio
   - animation
