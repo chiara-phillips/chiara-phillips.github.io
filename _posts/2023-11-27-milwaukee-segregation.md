@@ -3,6 +3,7 @@ layout: post
 title: 'Milwaukee Segregation'
 image: /assets/images/milwaukee-segregation.png
 tags:
+  - portfolio
   - qgis
   - census
   - human-geography
