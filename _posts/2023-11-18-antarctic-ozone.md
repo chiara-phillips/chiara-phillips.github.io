@@ -5,7 +5,7 @@ image: /assets/images/antarctic-ozone.gif
 tags:
   - animation
   - qgis
-  - googleearthengine
+  - google-earth-engine
   - canva
   - climate
 author: Chiara Phillips
