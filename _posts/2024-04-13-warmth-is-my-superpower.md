@@ -44,9 +44,9 @@ Then, something interesting happened. A friend I met years ago reached out to me
 
 He said there was two reasons he wanted to work with me:
 
->"1. Because you're a GIS and cartography expert. It's clear through every single one of the maps you're posting online, and,
+"1. Because you're a GIS and cartography expert. It's clear through every single one of the maps you're posting online, and,
 
->2. Because you're really nice."
+2. Because you're really nice."
 
 I was blown away. While building my career in GIS, I had been focusing on consistently growing my technical skills. I hadn't considered that my relationship-building skills could be just as big of a factor in why someone may want to work with me. In fact, I thought that these crucial interpersonal strengths somehow made me less professional. I thought that my personality was a weakness.
 
