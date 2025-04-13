@@ -11,8 +11,9 @@ author: Chiara Phillips
 
 Here's how you can make this phytoplankton map inspired by map-legends John Nelson and Greg Fiske using QGIS, Adobe Illustrator, and Adobe Premiere!
 
-<iframe width="600" height="338" src="https://www.youtube.com/watch?v=A_0wvyBF3I0&t=2s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<div class="youtube-embed">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/A_0wvyBF3I0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 0:00 Intro
 
