@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Antarctic Ozone
+title: Germany's Population Change
 image: /assets/images/germany-population-change.png
 tags:
   - portfolio
