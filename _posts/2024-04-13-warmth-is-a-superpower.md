@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My warmth is my superpower!
+title: Your warmth is a superpower!
 image: /assets/images/bonne-heart.png
 tags:
   - blog
