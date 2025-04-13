@@ -1,7 +1,7 @@
 ---
 layout: post
 title: India's Soybeans Face the Worst Dryspell in Decades
-image: /assets/images/antarctic-ozone.gif
+image: /assets/images/india-spi.png
 tags:
   - portfolio
   - qgis
