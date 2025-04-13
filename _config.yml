@@ -1,10 +1,9 @@
-domain: example.com
-url: https://example.com
+domain: chiara-phillips.github.io
+url: https://chiara-phillips.github.io
 baseurl: "/wind"
 
-title: Wind
-email: wind@example.com
-author: Wind Sample
+title: Chiara Phillips Map Portfolio
+author: Chiara Phillips
 
 lang: en
 
@@ -16,6 +15,5 @@ color: "#13ccf9"
 #   shortname: example-com
 #
 rrss:
-  email: "example@example.cl"
-  telegram: "https://t.me/"
-  discord: "https://discord.com/"
+  linkedin: "https://www.linkedin.com/in/chiaraphillips/"
+  bluesky: "https://bsky.app/profile/chiaraphillips.bsky.social"
