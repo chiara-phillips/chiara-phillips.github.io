@@ -17,6 +17,7 @@ Because the earth is a globe, maps have to distort the earth in some way to be p
 The projection shown here is the 🌊 SPILHAUS PROJECTION 🌊, which is handy for seeing all of the world's oceans (ocean?) in one place. I love that this projection forces us to realize how connected the oceans really are.
 
 I created this map as part of the 2023 #30daymapchallenge, combining the themes "Raster" and "North Isn't Always Up" into one map.
+
 ## Tools Used
 ArcGIS Pro, Canva
 
