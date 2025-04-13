@@ -3,6 +3,7 @@ layout: post
 title: Antarctic Ozone
 image: /assets/images/antarctic-ozone.gif
 tags:
+  - portfolio
   - animation
   - qgis
   - google-earth-engine
