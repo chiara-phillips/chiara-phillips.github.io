@@ -3,7 +3,9 @@ title: about
 layout: page
 ---
 
-<img src="/assets/images/2024-chiara-portrait.png" alt="Chiara portrait" style="width: 100%; max-width: 400px; height: auto; display: block; margin: 0 auto;" />
+<div style="text-align: center;">
+  <img src="/assets/images/2024-chiara-portrait.png" alt="Chiara portrait" style="max-width: 300px; width: 100%; height: auto; border-radius: 1rem;" />
+</div>
 
 Chiara Phillips is a Cartographer & Graphic Designer based out of Berlin, Germany.
 
