@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Voronoi Polygons
+title: Voronoi Polygons Around Berlin Lakes
 image: /assets/images/berlin-lake-voronoi-polygons.png
 tags:
   - portfolio
