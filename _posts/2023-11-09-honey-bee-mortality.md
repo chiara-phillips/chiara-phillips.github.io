@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Antarctic Ozone
-image: /assets/images/antarctic-ozone.gif
+image: /assets/images/bee-mortality.gif
 tags:
   - portfolio
   - animation
@@ -10,7 +10,6 @@ tags:
   - climate
 author: Chiara Phillips
 ---
-
 
 The theme for Day 9 of the 2023 #30daymapchallenge was "hexagons" so you know I had to make a map for bees. 💛 🖤
 
