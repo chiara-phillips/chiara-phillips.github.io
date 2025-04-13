@@ -42,14 +42,14 @@
   }
 }
 
-/* Estilo para la galería y los ítems */
+/* Style for the gallery and items */
 
 .gallery-item {
   position: relative;
   overflow: hidden;
 }
 
-/* Estilo para el overlay */
+/* Style for the overlay */
 .overlay {
   position: absolute;
   top: 0;
@@ -57,30 +57,36 @@
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
-  /* Oscurecimiento */
+  /* Darkening */
   opacity: 0;
-  /* Oculto por defecto */
+  /* Hidden by default */
   transition: 0.5s ease;
-  /* Transición suave para el efecto */
+  /* Smooth transition for effect */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* Estilo para el texto encima de la imagen */
+/* Style for the text above the image */
 .text {
   color: white;
   font-size: 0.9rem;
   text-align: center;
 }
 
-/* Efecto hover */
+/* Hover effect */
 .gallery-item:hover img {
   filter: brightness(70%);
-  /* Oscurece la imagen */
+  /* Darken the image */
 }
 
 .gallery-item:hover .overlay {
   opacity: 1;
-  /* Muestra el overlay */
+  /* Show the overlay */
 }
+
+/* Add rounded corners */
+.post-container {
+  @apply rounded-lg overflow-hidden shadow-md;
+}
+
