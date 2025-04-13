@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Antarctic Ozone
-image: /assets/images/example2.jpg
+image: /assets/images/antarctic-ozone.gif
 tags:
   - animation
   - qgis
