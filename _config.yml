@@ -17,7 +17,7 @@ color: "#13ccf9"
 
 header_pages:
   - index.md
-  - contact.md
+  - about.md
   - tags.md
 
 rrss:
