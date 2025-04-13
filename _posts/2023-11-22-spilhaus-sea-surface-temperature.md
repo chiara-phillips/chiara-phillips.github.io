@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Spilhaus Projection: The World's Ocean in A Square
+title: Spilhaus Projection
 image: /assets/images/spilhaus-sea-surface-temperature.png
 tags:
   - portfolio
