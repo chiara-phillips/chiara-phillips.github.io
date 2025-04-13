@@ -8,7 +8,6 @@ tags:
   - humangeography
 ---
 
-## Description
 "In the past, map-makers used to use maps to restrict opportunity. Today, we need to focus on race in our maps to create equity in our world. ... All of us have heard that change takes time. I disagree. Change takes action."
 -Clinton G. Johnson, Antiracist Geospatial Architect
 
