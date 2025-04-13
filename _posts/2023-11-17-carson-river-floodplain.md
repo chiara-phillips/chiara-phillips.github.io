@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Carson River Floodplain
+title: Relative Elevation Models
 image: /assets/images/carson-river-floodplain.png
 tags:
   - portfolio
