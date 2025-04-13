@@ -15,11 +15,6 @@ color: "#13ccf9"
 #   shortname: example-com
 #
 
-header_pages:
-  - index.md
-  - about.md
-  - contact.md
-
 rrss:
   linkedin: "https://www.linkedin.com/in/chiaraphillips/"
   bluesky: "https://bsky.app/profile/chiaraphillips.bsky.social"
