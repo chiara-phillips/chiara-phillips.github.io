@@ -3,8 +3,9 @@ layout: post
 title: 'Milwaukee Segregation'
 image: /assets/images/example4.jpg
 tags:
-  - theme
-  - documentation
+  - qgis
+  - census
+  - humangeography
 ---
 
 ## Description
