@@ -1,0 +1,40 @@
+---
+layout: post
+title: To me, a bad map is one that was never made.
+image: /assets/images/bad-map.jpeg
+tags:
+  - blog
+author: Chiara Phillips
+---
+
+I recently read "The War of Art" by Steven Pressfield, which explores the concept of "the resistance," or the internal and often self-imposed barriers, distractions, and fears that prevent people from pursuing their creative interests and goals. "The resistance" can take various forms such as procrastination, self-doubt, perfectionism, and fear of failure.
+
+
+How can one overcome "the resistance" and become more creatively self-actualized?
+
+Here are some ideas:
+
+Cultivate intrinsic motivation ⚡ 
+What topics interest you? What do you care about? What kinds of maps would be fun and interesting for you to make? Set clear goals for your maps based on these topics.
+
+
+Prioritize your "inner artist"🌷
+Schedule a time and place for you to get into deep focus.
+
+
+Create in a way that balances skill and challenge 🧘‍♀️
+If you are starting to feel anxious, that is a potential indicator that the challenge is too high. You can either lower the challenge or increase your skill. 
+
+For example, to lower the challenge for the #30DayMapChallenge, you can create one or two maps instead of all 30. To increase your skill, you can follow tutorials, take a GIS class, or ask for help.
+
+On the flip-side, if you're feeling bored, this could indicate that the challenge isn't high enough for you. How can you push yourself further to be more engaged in creating? Could you try out a new software or tool? Could you create the data you're mapping with machine learning?
+
+
+As a recovering perfectionist myself, I have so much empathy for everyone out there that struggles with this. Go on and make that map- you got this!
+
+
+Other related book suggestions:
+
+"The Artist's Way" by Julia Cameron
+
+"Flow" by Mihaly Csikszentmihalyi
