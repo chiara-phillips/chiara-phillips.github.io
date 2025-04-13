@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Contact
+title: contact
 permalink: /contact/
 ---
 
-## Get in Touch
+## Let's work together.
 
-I'd love to hear from you — whether it's feedback, a project idea, or just to say hi.
+Feel free to send a message to inquire about a project, speaking opportunity, collaboration, or just to say hey:
 
 <form action="https://formspree.io/f/your-form-id" method="POST" class="mt-6 space-y-4">
   <label class="block">
