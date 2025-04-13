@@ -1,10 +1,10 @@
 ---
 layout: page
-title: contact
-permalink: /contact/
+title: about
+permalink: /about/
 ---
 
-<div style="text-align: center;">
+<div style="display: flex; justify-content: center; margin-bottom: 2rem;">
   <img src="/assets/images/2024-chiara-portrait.png" alt="Chiara portrait" style="max-width: 300px; width: 100%; height: auto; border-radius: 1rem;" />
 </div>
 
