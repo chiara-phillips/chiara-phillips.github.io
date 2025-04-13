@@ -32,8 +32,9 @@ Feel free to send a message to inquire about a project, speaking opportunity, co
     <textarea name="message" rows="5" required class="mt-1 block w-full border rounded-md p-2"></textarea>
   </label>
 
-  <button type="submit" class="px-4 py-2 bg-blue-600 text-black rounded hover:bg-blue-700">
+  <button type="submit" class="px-4 py-2 border rounded text-gray-700 dark:text-white border-gray-300 dark:border-gray-600 hover:bg-gray-200 dark:hover:bg-gray-700">
   Send
   </button>
+
 
 </form>
