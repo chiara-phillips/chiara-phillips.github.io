@@ -3,6 +3,7 @@ layout: post
 title: Make This Plankton Map Plz!
 image: /assets/images/example2.jpg
 tags:
+  - tutorial
   - animation
   - qgis
   - adobe
