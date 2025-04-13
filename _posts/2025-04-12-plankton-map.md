@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Make This Plankton Map Plz!
-image: /assets/images/example2.jpg
+image: /assets/images/plankton-portrait.mp4
 tags:
   - tutorial
   - animation
