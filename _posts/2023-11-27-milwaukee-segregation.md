@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Milwaukee Segregation'
-image: /assets/images/example4.jpg
+image: /assets/images/milwaukee-segregation.png
 tags:
   - qgis
   - census
