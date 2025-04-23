@@ -3,4 +3,4 @@ layout: home
 ---
 # Chiara Phillips
 
-Cartographer and data visualisation designer with an interdisciplinary approach to design, programming, and storytelling that brings data to life
+Cartographer with a background in programming and design, specialising in data visualisation, mapping, and visual storytelling.
