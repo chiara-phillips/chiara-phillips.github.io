@@ -1,19 +1,40 @@
 ---
 layout: page
-title: About
+title: about
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll
-theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+<div style="display: flex; justify-content: center; margin-bottom: 2rem;">
+  <img src="/_site/assets/images/2024-chiara-portrait.png" alt="Chiara portrait" style="max-width: 300px; width: 100%; height: auto; border-radius: 1rem;" />
+</div>
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Chiara Phillips is a Cartographer & Graphic Designer based out of Berlin, Germany.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+With a focus on creative visual design and client collaboration, they have helped countless organizations share their stories.
+
+## Let's work together.
+
+Feel free to send a message to inquire about a project, speaking opportunity, collaboration, or just to say hey:
+
+<form action="https://formspree.io/f/mvgklnaj" method="POST" class="mt-6 space-y-4">
+  <label class="block">
+    <span class="text-gray-700">First & Last Name</span>
+    <input type="text" name="name" required class="mt-1 block w-full border rounded-md p-2">
+  </label>
+
+  <label class="block">
+    <span class="text-gray-700">Email</span>
+    <input type="email" name="_replyto" required class="mt-1 block w-full border rounded-md p-2">
+  </label>
+
+  <label class="block">
+    <span class="text-gray-700">Message</span>
+    <textarea name="message" rows="5" required class="mt-1 block w-full border rounded-md p-2"></textarea>
+  </label>
+
+  <button type="submit" class="px-4 py-2 border rounded text-gray-700 dark:text-white border-gray-300 dark:border-gray-600 hover:bg-gray-200 dark:hover:bg-gray-700">
+  Send
+  </button>
 
 
-[jekyll-organization]: https://github.com/jekyll
+</form>
