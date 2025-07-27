@@ -11,30 +11,26 @@ layout: home
       Over the past 6+ years as a Cartographer and Geospatial Software Developer, I have helped countless organizations understand and communicate the hidden stories within spatial data.
     </p>
     
-          <p style="font-size: 1.1rem; margin-bottom: 0.5rem; color: #f75f61; text-align: center;">
-        Ready to bring your data to life?
-      </p>
-      <p style="font-size: 1.1rem; font-weight: 600; margin-bottom: 0.5rem; color: #f75f61; text-align: center;">
-        <a href="#contact" style="color: #f75f61; text-decoration: none; cursor: pointer;" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'}); return false;">Let's work together!</a>
-      </p>
+                         <p style="font-size: 1.1rem; margin-bottom: 0.5rem; color: #f75f61; text-align: center;">
+                 Ready to bring your data to life? <a href="#contact" style="color: #f75f61; text-decoration: none; cursor: pointer; font-weight: 900;" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'}); return false;">Let's work together!</a>
+               </p>
   </div>
 </div>
 
 <div id="portfolio" class="md:w-4/5 mx-auto gap-4 md:gap-6 columns-2 md:columns-3 mb-10">
   {% for post in site.posts %}
     {% if post.tags contains 'portfolio' %}
-    <div class="md:fadeIn pb-8 mb-8 break-inside-avoid-column ">
+    <div class="md:fadeIn pb-1 mb-1 break-inside-avoid-column ">
       <div class="hover:underline hover:decoration-2 hover:underline-offset-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-104 duration-300">
         <a href="{{ post.url | relative_url }}">
           <img src="{{ post.image | relative_url }}" alt="" class="w-full max-w-screen-sm h-auto shadow-md rounded-lg">
-          <h2 class="text-lg md:text-xl lg:text-2xl pt-5 text-ellipsis overflow-hidden">{{post.title}}</h2>
         </a>
       </div>
-      <div class="pt-2">
+      <!-- <div class="pt-2">
         {% for tag in post.tags limit:3 %}
         <span class="text-xs text-slate-700 dark:text-slate-100/80 align-middle">#{{tag}}</span>
         {% endfor %}
-      </div>
+      </div> -->
     </div>
     {% endif %}
   {% endfor %}
@@ -42,23 +38,23 @@ layout: home
 
 ---
 
-## Notes from the Field
+## <span id="blog">Notes from the Field</span>
 
 <div id="blog" class="md:w-4/5 mx-auto gap-4 md:gap-6 columns-2 md:columns-3 mb-10">
   {% for post in site.posts %}
     {% unless post.tags contains 'portfolio' %}
-    <div class="md:fadeIn pb-8 mb-8 break-inside-avoid-column ">
+    <div class="md:fadeIn pb-4 mb-4 break-inside-avoid-column ">
       <div class="hover:underline hover:decoration-2 hover:underline-offset-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-104 duration-300">
         <a href="{{ post.url | relative_url }}">
           <img src="{{ post.image | relative_url }}" alt="" class="w-full max-w-screen-sm h-auto shadow-md rounded-lg">
           <h2 class="text-lg md:text-xl lg:text-2xl pt-5 text-ellipsis overflow-hidden">{{post.title}}</h2>
         </a>
       </div>
-      <div class="pt-2">
+      <!-- <div class="pt-2">
         {% for tag in post.tags limit:3 %}
         <span class="text-xs text-slate-700 dark:text-slate-100/80 align-middle">#{{tag}}</span>
         {% endfor %}
-      </div>
+      </div> -->
     </div>
     {% endunless %}
   {% endfor %}

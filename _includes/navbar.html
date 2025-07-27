@@ -7,10 +7,10 @@
   <div class="container mx-auto flex justify-between items-center">
     <h5 class="text-xl md:text-2xl font-semibold"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h5>
     <div class="my-auto hidden md:flex items-center space-x-4">
-      <a class="hover:scale-105 duration-300 page-link" href="#about" onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'}); return false;">About</a>
-      <a class="hover:scale-105 duration-300 page-link" href="#portfolio" onclick="document.getElementById('portfolio').scrollIntoView({behavior: 'smooth'}); return false;">Portfolio</a>
-      <a class="hover:scale-105 duration-300 page-link" href="#blog" onclick="document.getElementById('blog').scrollIntoView({behavior: 'smooth'}); return false;">Blog</a>
-      <a class="hover:scale-105 duration-300 page-link" href="#contact" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'}); return false;">Contact</a>
+      <a id="nav-about" class="page-link" style="transition: color 0.3s;" onmouseover="if(this.getAttribute('data-active') !== 'true') this.style.color='#f9a1a2'" onmouseout="if(this.getAttribute('data-active') !== 'true') this.style.color=''" href="#about" onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'}); return false;">About</a>
+      <a id="nav-portfolio" class="page-link" style="transition: color 0.3s;" onmouseover="if(this.getAttribute('data-active') !== 'true') this.style.color='#f9a1a2'" onmouseout="if(this.getAttribute('data-active') !== 'true') this.style.color=''" href="#portfolio" onclick="document.getElementById('portfolio').scrollIntoView({behavior: 'smooth'}); return false;">Portfolio</a>
+      <a id="nav-blog" class="page-link" style="transition: color 0.3s;" onmouseover="if(this.getAttribute('data-active') !== 'true') this.style.color='#f9a1a2'" onmouseout="if(this.getAttribute('data-active') !== 'true') this.style.color=''" href="#blog" onclick="document.getElementById('blog').scrollIntoView({behavior: 'smooth'}); return false;">Blog</a>
+      <a id="nav-contact" class="page-link" style="transition: color 0.3s;" onmouseover="if(this.getAttribute('data-active') !== 'true') this.style.color='#f9a1a2'" onmouseout="if(this.getAttribute('data-active') !== 'true') this.style.color=''" href="#contact" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'}); return false;">Contact</a>
     </div>
 
     <div class="z-50 md:hidden flex">
@@ -20,10 +20,10 @@
         </svg>
       </button>
       <div id="mobile-menu" class="hidden absolute top-16 right-4 bg-white p-4 rounded shadow-md">
-        <a class="block text-black-700 font-semibold p-2" href="#about" onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'}); return false;">About</a>
-        <a class="block text-black-700 font-semibold p-2" href="#portfolio" onclick="document.getElementById('portfolio').scrollIntoView({behavior: 'smooth'}); return false;">Portfolio</a>
-        <a class="block text-black-700 font-semibold p-2" href="#blog" onclick="document.getElementById('blog').scrollIntoView({behavior: 'smooth'}); return false;">Blog</a>
-        <a class="block text-black-700 font-semibold p-2" href="#contact" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'}); return false;">Contact</a>
+        <a id="nav-about-mobile" class="block text-black-700 font-semibold p-2" style="transition: color 0.3s;" onmouseover="if(this.getAttribute('data-active') !== 'true') this.style.color='#f9a1a2'" onmouseout="if(this.getAttribute('data-active') !== 'true') this.style.color=''" href="#about" onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'}); return false;">About</a>
+        <a id="nav-portfolio-mobile" class="block text-black-700 font-semibold p-2" style="transition: color 0.3s;" onmouseover="if(this.getAttribute('data-active') !== 'true') this.style.color='#f9a1a2'" onmouseout="if(this.getAttribute('data-active') !== 'true') this.style.color=''" href="#portfolio" onclick="document.getElementById('portfolio').scrollIntoView({behavior: 'smooth'}); return false;">Portfolio</a>
+        <a id="nav-blog-mobile" class="block text-black-700 font-semibold p-2" style="transition: color 0.3s;" onmouseover="if(this.getAttribute('data-active') !== 'true') this.style.color='#f9a1a2'" onmouseout="if(this.getAttribute('data-active') !== 'true') this.style.color=''" href="#blog" onclick="document.getElementById('blog').scrollIntoView({behavior: 'smooth'}); return false;">Blog</a>
+        <a id="nav-contact-mobile" class="block text-black-700 font-semibold p-2" style="transition: color 0.3s;" onmouseover="if(this.getAttribute('data-active') !== 'true') this.style.color='#f9a1a2'" onmouseout="if(this.getAttribute('data-active') !== 'true') this.style.color=''" href="#contact" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'}); return false;">Contact</a>
       </div>
     </div>
   </div>
@@ -36,4 +36,56 @@
   mobileMenuButton.addEventListener('click', () => {
     mobileMenu.classList.toggle('hidden');
   });
+
+  // Active section highlighting
+  function updateActiveNav() {
+    const sections = ['about', 'portfolio', 'blog', 'contact'];
+    const navLinks = ['nav-about', 'nav-portfolio', 'nav-blog', 'nav-contact'];
+    const mobileNavLinks = ['nav-about-mobile', 'nav-portfolio-mobile', 'nav-blog-mobile', 'nav-contact-mobile'];
+    
+    const scrollPosition = window.scrollY + 100; // Offset for navbar height
+    
+    sections.forEach((section, index) => {
+      const element = document.getElementById(section);
+      const navLink = document.getElementById(navLinks[index]);
+      const mobileNavLink = document.getElementById(mobileNavLinks[index]);
+      
+      if (element) {
+        const elementTop = element.offsetTop;
+        const elementBottom = elementTop + element.offsetHeight;
+        
+        if (scrollPosition >= elementTop && scrollPosition < elementBottom) {
+          // Highlight active section
+          if (navLink) {
+            navLink.style.color = '#f75f61';
+            navLink.style.fontWeight = 'bold';
+            navLink.setAttribute('data-active', 'true');
+          }
+          if (mobileNavLink) {
+            mobileNavLink.style.color = '#f75f61';
+            mobileNavLink.style.fontWeight = 'bold';
+            mobileNavLink.setAttribute('data-active', 'true');
+          }
+        } else {
+          // Reset to default color and weight
+          if (navLink) {
+            navLink.style.color = '';
+            navLink.style.fontWeight = '';
+            navLink.setAttribute('data-active', 'false');
+          }
+          if (mobileNavLink) {
+            mobileNavLink.style.color = '';
+            mobileNavLink.style.fontWeight = '';
+            mobileNavLink.setAttribute('data-active', 'false');
+          }
+        }
+      }
+    });
+  }
+
+  // Update on scroll
+  window.addEventListener('scroll', updateActiveNav);
+  
+  // Update on page load
+  document.addEventListener('DOMContentLoaded', updateActiveNav);
 </script>
