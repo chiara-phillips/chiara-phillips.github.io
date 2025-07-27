@@ -17,10 +17,10 @@ color: "#13ccf9"
 
 header_pages:
   - index.md
-  - about.md
   - tags.md
 
 rrss:
   linkedin: "https://www.linkedin.com/in/chiaraphillips/"
   instagram: "https://www.instagram.com/chiaramphillips/"
   bluesky: "https://bsky.app/profile/chiaraphillips.bsky.social"
+  github: "https://github.com/chiara-phillips"
