@@ -3,8 +3,66 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   {% seo %}
-  <link rel="stylesheet" href="{{ '/assets/dist-style.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  
+  <!-- Tailwind CSS from CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Custom CSS -->
+  <style>
+    /* Custom styles for your site */
+    .page-link {
+      color: #374151;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    
+    .page-link:hover {
+      color: #f9a1a2;
+    }
+    
+    .prose {
+      max-width: 65ch;
+      color: #374151;
+    }
+    
+    .prose p {
+      margin-bottom: 1rem;
+      line-height: 1.6;
+    }
+    
+    .prose h1, .prose h2, .prose h3 {
+      color: #111827;
+      font-weight: 600;
+    }
+    
+    .shadow-md {
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    }
+    
+    .rounded-lg {
+      border-radius: 0.5rem;
+    }
+    
+    .sticky {
+      position: sticky;
+    }
+    
+    .top-0 {
+      top: 0;
+    }
+    
+    .z-50 {
+      z-index: 50;
+    }
+    
+    .bg-white {
+      background-color: #ffffff;
+    }
+    
+    .shadow-sm {
+      box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    }
+  </style>
 
   {%- include custom_head.html -%}
 </head>

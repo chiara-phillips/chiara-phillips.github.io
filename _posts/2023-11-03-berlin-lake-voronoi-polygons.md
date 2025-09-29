@@ -7,6 +7,7 @@ tags:
   - qgis
   - canva
 author: Chiara Phillips
+published: false
 ---
 
 One of the many things I love about Berlin is how much excitement there is around lake season in the summer. The winters are oppressively dark but as soon as temperatures rise in the spring, everyone runs to the nearest lake for a swim! There's a very similar reverence for lakes in Wisconsin, where I grew up.

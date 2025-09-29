@@ -8,6 +8,7 @@ tags:
   - canva
   - human-geography
 author: Chiara Phillips
+published: false
 ---
 
 I created this map in the 2023 #30daymapchallenge for the themes "minimal," "black and white," and "population".

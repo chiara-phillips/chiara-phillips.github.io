@@ -9,8 +9,6 @@
     <div class="my-auto hidden md:flex items-center space-x-4">
       <a id="nav-about" class="page-link" style="transition: color 0.3s;" onmouseover="if(this.getAttribute('data-active') !== 'true') this.style.color='#f9a1a2'" onmouseout="if(this.getAttribute('data-active') !== 'true') this.style.color=''" href="#about" onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'}); return false;">About</a>
       <a id="nav-portfolio" class="page-link" style="transition: color 0.3s;" onmouseover="if(this.getAttribute('data-active') !== 'true') this.style.color='#f9a1a2'" onmouseout="if(this.getAttribute('data-active') !== 'true') this.style.color=''" href="#portfolio" onclick="document.getElementById('portfolio').scrollIntoView({behavior: 'smooth'}); return false;">Portfolio</a>
-      <a id="nav-blog" class="page-link" style="transition: color 0.3s;" onmouseover="if(this.getAttribute('data-active') !== 'true') this.style.color='#f9a1a2'" onmouseout="if(this.getAttribute('data-active') !== 'true') this.style.color=''" href="#blog" onclick="document.getElementById('blog').scrollIntoView({behavior: 'smooth'}); return false;">Blog</a>
-      <a id="nav-contact" class="page-link" style="transition: color 0.3s;" onmouseover="if(this.getAttribute('data-active') !== 'true') this.style.color='#f9a1a2'" onmouseout="if(this.getAttribute('data-active') !== 'true') this.style.color=''" href="#contact" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'}); return false;">Contact</a>
     </div>
 
     <div class="z-50 md:hidden flex">
@@ -22,8 +20,6 @@
       <div id="mobile-menu" class="hidden absolute top-16 right-4 bg-white p-4 rounded shadow-md">
         <a id="nav-about-mobile" class="block text-black-700 font-semibold p-2" style="transition: color 0.3s;" onmouseover="if(this.getAttribute('data-active') !== 'true') this.style.color='#f9a1a2'" onmouseout="if(this.getAttribute('data-active') !== 'true') this.style.color=''" href="#about" onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'}); return false;">About</a>
         <a id="nav-portfolio-mobile" class="block text-black-700 font-semibold p-2" style="transition: color 0.3s;" onmouseover="if(this.getAttribute('data-active') !== 'true') this.style.color='#f9a1a2'" onmouseout="if(this.getAttribute('data-active') !== 'true') this.style.color=''" href="#portfolio" onclick="document.getElementById('portfolio').scrollIntoView({behavior: 'smooth'}); return false;">Portfolio</a>
-        <a id="nav-blog-mobile" class="block text-black-700 font-semibold p-2" style="transition: color 0.3s;" onmouseover="if(this.getAttribute('data-active') !== 'true') this.style.color='#f9a1a2'" onmouseout="if(this.getAttribute('data-active') !== 'true') this.style.color=''" href="#blog" onclick="document.getElementById('blog').scrollIntoView({behavior: 'smooth'}); return false;">Blog</a>
-        <a id="nav-contact-mobile" class="block text-black-700 font-semibold p-2" style="transition: color 0.3s;" onmouseover="if(this.getAttribute('data-active') !== 'true') this.style.color='#f9a1a2'" onmouseout="if(this.getAttribute('data-active') !== 'true') this.style.color=''" href="#contact" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'}); return false;">Contact</a>
       </div>
     </div>
   </div>
@@ -39,9 +35,9 @@
 
   // Active section highlighting
   function updateActiveNav() {
-    const sections = ['about', 'portfolio', 'blog', 'contact'];
-    const navLinks = ['nav-about', 'nav-portfolio', 'nav-blog', 'nav-contact'];
-    const mobileNavLinks = ['nav-about-mobile', 'nav-portfolio-mobile', 'nav-blog-mobile', 'nav-contact-mobile'];
+    const sections = ['about', 'portfolio'];
+    const navLinks = ['nav-about', 'nav-portfolio'];
+    const mobileNavLinks = ['nav-about-mobile', 'nav-portfolio-mobile'];
     
     const scrollPosition = window.scrollY + 100; // Offset for navbar height
     

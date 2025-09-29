@@ -7,6 +7,7 @@ tags:
   - qgis
   - canva
 author: Chiara Phillips
+published: false
 ---
 
 What do cartographers do when they go on vacation? Make more maps! 😁

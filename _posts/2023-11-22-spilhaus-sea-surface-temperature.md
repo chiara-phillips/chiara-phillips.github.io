@@ -8,6 +8,7 @@ tags:
   - climate
   - canva
 author: Chiara Phillips
+published: false
 ---
 
 Have you ever seen a world map like this? 🔎

@@ -5,6 +5,7 @@ image: /assets/images/bonne-heart.png
 tags:
   - blog
 author: Chiara Phillips
+published: false
 ---
 I was once asked, "do you consider yourself more technical or more people-oriented?"  At the time, I was absolutely stumped. Now, I have an answer. *(Spoiler alert: it will be nerdy and heartfelt- that's just me.)*
 

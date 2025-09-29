@@ -9,6 +9,8 @@ tags:
   - canva
   - human-geography
 author: Chiara Phillips
+published: false
+published: false
 ---
 
 My GIS-nerd is showing! 🗺️ In summer of 2023, my friend convinced me to read a sci-fi/horror novel called “Annihilation” by Jeff VanderMeer (my first fiction book in 8+ years!). It was SUCH a page-turner- even Stephen King said it was “creepy and fascinating”. Best of all, the book had a character whose job it was to map Area X. So, naturally, I was inspired to make a map of my own! 🤓

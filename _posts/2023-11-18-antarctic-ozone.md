@@ -10,6 +10,7 @@ tags:
   - canva
   - climate
 author: Chiara Phillips
+published: false
 ---
 
 After discovering that CFCs were damaging the ozone layer in the 1980s, countries around the world agreed to ban them. As a result, the ozone layer is slowly healing (with some fluctuations due to seasonality, wildfires, volcanic eruptions). While the ozone layer still won't be restored to its pre-industrial levels for several decades, this story gives me so much hope. It shows that global climate action is absolutely possible if we all prioritize it TODAY!

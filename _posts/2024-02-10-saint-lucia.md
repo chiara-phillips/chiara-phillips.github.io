@@ -7,6 +7,7 @@ tags:
   - qgis
   - canva
   - google-earth-engine
+published: false
 ---
 
 

@@ -7,14 +7,10 @@ tags:
   - qgis
   - canva
   - climate
-author: Chiara Phillips
+author: By Chiara Phillips
+published: false
 ---
 
-
-
-My mission is to communicate geospatial stories to ignite global climate action! 🌎 🌾
-
-This map is in honor of my days with ASRC Federal/USDA, where I created maps and geospatial tools for monitoring threats to global agriculture!
 
 ## Tools Used
 QGIS, Canva

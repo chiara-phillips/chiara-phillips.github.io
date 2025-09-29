@@ -9,6 +9,7 @@ tags:
   - canva
   - human-geography
 author: Chiara Phillips
+published: false
 ---
 
 Expansion of Airbnb listings in Prague from 2010-2023. Only listings with at least one review for a given year were included.

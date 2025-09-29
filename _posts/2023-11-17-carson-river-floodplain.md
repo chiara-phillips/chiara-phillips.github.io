@@ -7,6 +7,7 @@ tags:
   - qgis
   - canva
 author: Chiara Phillips
+published: false
 ---
 
 This map was on my "map creation wishlist" for so long! What you see here is a relative elevation model (REM).
