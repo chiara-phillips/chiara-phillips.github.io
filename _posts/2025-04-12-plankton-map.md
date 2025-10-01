@@ -38,7 +38,7 @@ Service offers a vast catalog of open datasets, its primary audience has histori
  been scientists. The team wanted to reach the data visualization community, showing
   that in addition to being scientific, ocean data can beautiful and creative.
 
-My goal was to create an engaging, visually striking map that transformed 
+I was hired as a keynote speaker and a data visualization expert for this project. My goal was to create an engaging, visually striking map that transformed 
 Copernicus Marine Service data into something data visualization professionals
  would be excited to explore and learn about (and perhaps even re-create themselves).
 
