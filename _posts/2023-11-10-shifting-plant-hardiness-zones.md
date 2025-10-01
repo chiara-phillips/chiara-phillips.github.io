@@ -10,7 +10,7 @@ tags:
   - canva
   - climate
 author: By Chiara Phillips
-published: true
+published: false
 ---
 
 In 1960, the USDA introduced the "Plant Hardiness Zones” to help gardeners select the best plants for their region's climate.

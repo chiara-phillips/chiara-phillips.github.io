@@ -12,6 +12,7 @@ theme: null
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-maplibre
 
 color: "#13ccf9"
 # disqus:
@@ -25,3 +26,16 @@ rrss:
   linkedin: "https://www.linkedin.com/in/chiaraphillips/"
   bluesky: "https://bsky.app/profile/chiaraphillips.bsky.social"
   github: "https://github.com/chiara-phillips"
+
+maplibre:
+  width: 100%
+  height: 600
+  zoom: 1
+  center: [0, 90]
+  pmtiles: false
+  style: "/assets/maps/voyager-gl-style.json"
+  sources:
+    carto: 
+      type: vector
+      url: "https://tiles.basemaps.cartocdn.com/vector/carto.streets/v1/tiles.json"
+      attribution: © <a href='https://openstreetmap.org'>OpenStreetMap contributors</a>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: NACIS Map Tile
-image: assets/images/KentuckyDerbyFlights_NACIS2025_Print.png
+image: /assets/ai2html/nacis-map-blanket/MapQuilt_Phillips_editable_text-Artboard_1.jpg
 tags:
   - portfolio
   - tutorial
@@ -29,6 +29,14 @@ after the Kentucky Derby.
 
 I added labels and symbols to the map within Adobe Illustrator and exported the map
 using AI2HTML to embed in this post.
+
+<div class="not-prose w-full my-8">
+  <iframe
+    src="{{ '/assets/ai2html/nacis-map-blanket/MapQuilt_Phillips_editable_text.html' | relative_url }}"
+    style="width:100%; border:0; aspect-ratio: 16 / 9;"
+    loading="lazy"
+  ></iframe>
+</div>
 
 ### Tools Used
 QGIS, Adobe Illustrator, AI2HTML
