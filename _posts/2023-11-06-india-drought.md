@@ -33,3 +33,6 @@ This map is typical of maps I created during my time as a cartographer and geosp
 We had strict style specifications and were on tight deadlines. I found it very exciting!
 
 I created this map using UCSB CHIRPS data within QGIS and Canva during the #30DayMapChallenge in 2023 after work one day. I think sometimes people see my work and think I only do in-depth maps, but creating a quick story or quick visual has been an enjoyable and repeated part of my work for many years now, both at my time with USDA but also now at Seqana!
+
+# What I'd Do Next Time
+If I were to create this map again now, I would've used Illustrator and exported with AI2HTML so that it would be a bit more web-friendly and responsive to different screen sizes.
