@@ -8,7 +8,7 @@ layout: home
   
   <div style="flex: 1; min-width: 300px; text-align: left; max-width: none;">
     <p style="font-size: 1.1rem; line-height: 1.6; margin-bottom: 1rem; color: #374151; text-align: center;">
-      Geographer & programmer turned designer, specializing in cartographic storytelling.
+      Geographer and designer specializing in cartographic storytelling and programming.
     </p>
     
                          <p style="font-size: 1.1rem; margin-bottom: 0.5rem; color: black; text-align: center;">
