@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Your Guide to the 2026 Solar Eclipse</title>
+    <meta property="og:description" content="Your Guide to the 2026 Solar Eclipse." />
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' href='https://unpkg.com/maplibre-gl@5.6.2/dist/maplibre-gl.css' />
+    <script src='https://unpkg.com/maplibre-gl@5.6.2/dist/maplibre-gl.js'></script>
+    <style>
+        body { margin: 0; padding: 0; }
+        html, body, #map { height: 100%; }
+    </style>
+</head>
+<style>
+    #map {
+        background: #000;
+    }
+</style>
+<body>
+<div id="map"></div>
+<script>
+    const source = 'https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json';
+    const map = new maplibregl.Map({
+        container: 'map',
+        style: source,
+        zoom: 1,
+        center: [0, 90],
+    });
+
+    map.on('style.load', () => {
+        map.setProjection({
+            type: 'globe'
+        });
+    });
+
+    // Eclipse viewing locations data
+    const eclipseLocations = [
+        { name: "Station Nord, Greenland", lng: -16.6667, lat: 81.6 },
+        { name: "Ísafjörður, Iceland", lng: -23.13498, lat: 66.07475 },
+        { name: "Borgarnes, Iceland", lng: -21.901, lat: 64.5609 },
+        { name: "Reykjavik, Iceland", lng: -21.8954, lat: 64.1355 },
+        { name: "Keflavík, Iceland", lng: -22.56242, lat: 64.00492 },
+        { name: "Santander, Cantabria, Spain", lng: -3.805, lat: 43.462776 },
+        { name: "Bilbao, Vizcaya, Spain", lng: -2.9253, lat: 43.2627 },
+        { name: "Gijón, Asturias, Spain", lng: -5.6615, lat: 43.5357 },
+        { name: "Oviedo, Asturias, Spain", lng: -5.8448, lat: 43.3603 },
+        { name: "Vitoria-Gasteiz, Álava, Spain", lng: -2.67268, lat: 42.84998 },
+        { name: "A Coruña, A Coruña, Spain", lng: -8.396, lat: 43.3714 },
+        { name: "Lugo, Lugo, Spain", lng: -7.55, lat: 43.016666 },
+        { name: "Logroño, La Rioja, Spain", lng: -2.45, lat: 42.46667 },
+        { name: "Burgos, Burgos, Spain", lng: -3.6753, lat: 42.3502 },
+        { name: "Ponferrada, León, Spain", lng: -6.59619, lat: 42.54664 },
+        { name: "Zaragoza, Zaragoza, Spain", lng: -0.87734, lat: 41.65606 },
+        { name: "Palencia, Palencia, Spain", lng: -4.52406, lat: 42.00955 },
+        { name: "Salou, Tarragona, Spain", lng: 1.144, lat: 41.077 },
+        { name: "Valladolid, Valladolid, Spain", lng: -4.72372, lat: 41.65518 },
+        { name: "Mahón, Menorca, Spain", lng: 4.26111, lat: 39.8875 },
+        { name: "Port de Pollença, Balearic Islands, Spain", lng: 3.082407, lat: 39.907406 },
+        { name: "Alcúdia, Baleares, Spain", lng: 3.1214, lat: 39.8532 },
+        { name: "Segovia, Segovia, Spain", lng: -4.108807, lat: 40.942902 },
+        { name: "Teruel, Teruel, Spain", lng: -1.10646, lat: 40.3456 },
+        { name: "Palma, Majorca, Spain", lng: 2.650544, lat: 39.571625 },
+        { name: "Guadalajara, Guadalajara, Spain", lng: -3.16185, lat: 40.62862 },
+        { name: "Cuenca, Cuenca, Spain", lng: -2.137416, lat: 40.070393 },
+        { name: "Valencia, Valencia, Spain", lng: -0.3774, lat: 39.4698 },
+        { name: "Sant Antoni de Portmany, Ibiza, Spain", lng: 1.30362, lat: 38.98068 },
+        { name: "Ibiza, Ibiza, Spain", lng: 1.421416, lat: 38.906986 }
+    ];
+
+    // Create circle markers for each location
+    eclipseLocations.forEach(location => {
+        // Create a custom DOM element for the circle marker
+        const el = document.createElement('div');
+        el.style.width = '6px';
+        el.style.height = '6px';
+        el.style.borderRadius = '50%';
+        el.style.backgroundColor = 'gray';
+        el.style.border = '1px solid white';
+        el.style.cursor = 'pointer';
+        el.style.boxShadow = '0 2px 4px rgba(0,0,0,0.3)';
+        
+        // Add hover events for popup
+        let popup = null;
+        
+        el.addEventListener('mouseenter', () => {
+            popup = new maplibregl.Popup()
+                .setLngLat([location.lng, location.lat])
+                .setHTML(`<strong>${location.name}</strong>`)
+                .addTo(map);
+        });
+        
+        el.addEventListener('mouseleave', () => {
+            if (popup) {
+                popup.remove();
+                popup = null;
+            }
+        });
+        
+        // Add marker to map
+        new maplibregl.Marker({element: el})
+            .setLngLat([location.lng, location.lat])
+            .addTo(map);
+    });
+    map.on('load', async () => {
+        // Load the eclipse data from the JSON file
+        const response = await fetch('eclipse_data.json');
+        const eclipseData = await response.json();
+        
+        map.addSource('eclipse_data', {
+            'type': 'geojson',
+            'data': eclipseData
+        });
+        map.addLayer({
+            'id': 'eclipse_data',
+            'type': 'fill',
+            'source': 'eclipse_data',
+            'layout': {},
+            'paint': {
+                'fill-color': 'black',
+                'fill-opacity': 0.6
+            }
+        });
+    });
+</script>
+</body>
+</html>
+
+
