@@ -8,7 +8,7 @@ layout: home
   
   <div style="flex: 1; min-width: 300px; text-align: left; max-width: none;">
     <p style="font-size: 1.1rem; line-height: 1.6; margin-bottom: 1rem; color: #374151; text-align: center;">
-      Geographer and designer specializing in cartographic storytelling and programming.
+      Geographer, software developer, and cartographic designer dedicated to communication and storytelling.
     </p>
     
                          <p style="font-size: 1.1rem; margin-bottom: 0.5rem; color: black; text-align: center;">
@@ -19,6 +19,14 @@ layout: home
 
 <div id="portfolio" class="md:w-4/5 mx-auto mb-10">
   {% assign portfolio_posts = site.posts | where: "tags", "portfolio" %}
+  {% assign ordered_posts = "" | split: "" %}
+  {% assign plankton_post = portfolio_posts | where: "title", "The AED Framework, Automation, & Phytoplankton Mapping" | first %}
+  {% assign eclipse_post = portfolio_posts | where: "title", "MapLibre & the 2026 European Solar Eclipse" | first %}
+  {% assign blanket_post = portfolio_posts | where: "title", "FlightRadar24, Illustrator, & My 2025 NACIS Map Quilt Tile" | first %}
+  {% if plankton_post %}{% assign ordered_posts = ordered_posts | push: plankton_post %}{% endif %}
+  {% if eclipse_post %}{% assign ordered_posts = ordered_posts | push: eclipse_post %}{% endif %}
+  {% if blanket_post %}{% assign ordered_posts = ordered_posts | push: blanket_post %}{% endif %}
+  {% assign portfolio_posts = ordered_posts %}
   {% for post in portfolio_posts %}
     {% assign is_even = forloop.index | modulo: 2 %}
     <div class="flex flex-col md:flex-row items-center gap-8 mb-16 {% if is_even == 0 %}md:flex-row-reverse{% endif %}">

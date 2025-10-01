@@ -36,7 +36,11 @@ It didn't feel satisfying to me though— I knew that this place must have a sto
 
 In exploring the map with the colors I liked, I noticed an area in the top right that was different from the rest of my tile. It was the Louisville Airport! 
 
-![First draft](/assets/images/mapquilt_first_attempt.png)
+<br>
+<div style="display: flex; justify-content: center;">
+<img src="/assets/images/mapquilt_first_attempt.png" alt="First draft" style="width: 50%; max-width: 400px;">
+</div>
+<div style="text-align: center; margin-top: 1rem; margin-bottom: 2rem;"><i>Initial research and color play</i></div>
 
 I decided to check out their website and came across a "News" section. There, I found that every year, the busiest day at the airport is 
 typically the Sunday after the Kentucky Derby ([article here](https://www.flylouisville.com/louisville-muhammad-ali-international-airport-is-ready-for-kentucky-derby-151/){: style="color: #0066cc; text-decoration: underline;"}). I was fascinated, and set out to figure out where all of those planes were going.
@@ -51,6 +55,11 @@ after the Kentucky Derby. For styling, I intentionally decided to use the [brand
 
 After that, I added labels, text, and symbols to the map within Adobe Illustrator.
 
-![Final draft](/assets/images/KentuckyDerbyFlights_NACIS2025_Print.png)
+
+<br>
+<div style="display: flex; justify-content: center;">
+<img src="/assets/images/KentuckyDerbyFlights_NACIS2025_Print.png" alt="First draft" style="width: 90%; max-width: 800px;">
+</div>
+<div style="text-align: center; margin-top: 1rem; margin-bottom: 2rem;"><i>Final draft</i></div>
 
 I'm looking forward to seeing the full Map Quilt!
