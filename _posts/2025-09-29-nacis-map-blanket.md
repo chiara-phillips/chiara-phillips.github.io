@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AI2HTML, FlightRadar24, & My 2025 NACIS Map Quilt Tile
+title: FlightRadar24, Illustrator, & My 2025 NACIS Map Quilt Tile
 image: /assets/images/KentuckyDerbyFlights_NACIS2025_Print.png
 tags:
   - portfolio
@@ -49,20 +49,8 @@ From there, I summarized how many planes were going to each state and used a Str
 Then I used "Hub lines" in QGIS to create paths from Louisville to all of the states map the number of flights out of the Louisville Airport 
 after the Kentucky Derby. For styling, I intentionally decided to use the [branding](https://www.kentuckyderby.com/)style="color: #0066cc; text-decoration: underline;"" of the Kentucky Derby, both in color and font to give it some visual cohesion. If you look closely, you may see some little easter eggs as well.
 
-After that, I added labels, text, and symbols to the map within Adobe Illustrator and exported the map using AI2HTML to embed in this post.
+After that, I added labels, text, and symbols to the map within Adobe Illustrator.
 
-I'm looking forward to seeing the full Map Quilt! I couldn't make it out across the pond to NACIS this year, but hope that I can go next year!
+![Final draft](/assets/images/KentuckyDerbyFlights_NACIS2025_Print.png)
 
-<div class="not-prose w-full my-8">
-  <iframe
-    src="{{ '/assets/ai2html/nacis-map-blanket/MapQuilt_Phillips_editable_text.html' | relative_url }}"
-    style="width:100%; border:0; aspect-ratio: 16 / 9;"
-    loading="lazy"
-  ></iframe>
-</div>
-
-### Tools Used
-ChatGPT (for help with FlightRadar API), Python, Click2Vector, QGIS, Adobe Illustrator, AI2HTML
-
-### Data Source
-Flight Radar 24 API
+I'm looking forward to seeing the full Map Quilt!
