@@ -2,6 +2,9 @@ domain: chiara-phillips.github.io
 url: https://chiara-phillips.github.io
 baseurl: ""
 
+# GitHub repository information
+repository: chiara-phillips/chiara-phillips.github.io
+
 title: Chiara Phillips
 author: Chiara Phillips
 
