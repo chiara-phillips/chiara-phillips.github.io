@@ -222,7 +222,7 @@ sizes on screens to contrast, animation accessibility (avoiding flashes), intern
 
 
 # Results
-I created the final map by using exporting a Zarr file over my area of interest and time period from the Copernicus Marine Data Store using their Python API. I created a script to analyze the chlorophyll-a concentration of each 10-degree section of the North Atlantic Ocean, and exported each daily concentration as a map to style in QGIS.
+I created the final map after exporting a Zarr file over my area of interest and time period from the Copernicus Marine Data Store using their Python API. I created a script to analyze the chlorophyll-a concentration of each 10-degree section of the North Atlantic Ocean, and exported each daily concentration as a map to style in QGIS.
 
 In QGIS, I styled 1 raster and copy/pasted the style to the rest of my rasters and used the Globe Builder plugin to create a single layout. From there, I used the Python console to automate the export each raster within my layout.
 
@@ -258,8 +258,7 @@ I find animated maps extremely engaging (and fun to make), but in webinar contex
  the lag between the sharer/viewer of videos can prevent the viewer from seeing all
   of the intended frames. This can make designs look less smooth. While animated maps
    can be nice for social media to draw in people's attention, for live webinars, 
-   static maps could make more sense. You can keep these learnings in mind for your
-    next map!
+   static maps could make more sense.
 
 # Next Steps
 
