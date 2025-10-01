@@ -18,15 +18,7 @@ layout: home
 </div>
 
 <div id="portfolio" class="md:w-4/5 mx-auto mb-10">
-  {% assign portfolio_posts = site.posts | where: "tags", "portfolio" %}
-  {% assign ordered_posts = "" | split: "" %}
-  {% assign plankton_post = portfolio_posts | where: "title", "The AED Framework, Automation, & Phytoplankton Mapping" | first %}
-  {% assign eclipse_post = portfolio_posts | where: "title", "MapLibre & the 2026 European Solar Eclipse" | first %}
-  {% assign blanket_post = portfolio_posts | where: "title", "FlightRadar24, Illustrator, & My 2025 NACIS Map Quilt Tile" | first %}
-  {% if plankton_post %}{% assign ordered_posts = ordered_posts | push: plankton_post %}{% endif %}
-  {% if eclipse_post %}{% assign ordered_posts = ordered_posts | push: eclipse_post %}{% endif %}
-  {% if blanket_post %}{% assign ordered_posts = ordered_posts | push: blanket_post %}{% endif %}
-  {% assign portfolio_posts = ordered_posts %}
+  {% assign portfolio_posts = site.posts | where: "tags", "portfolio" | sort: "date" | reverse %}
   {% for post in portfolio_posts %}
     {% assign is_even = forloop.index | modulo: 2 %}
     <div class="flex flex-col md:flex-row items-center gap-8 mb-16 {% if is_even == 0 %}md:flex-row-reverse{% endif %}">
