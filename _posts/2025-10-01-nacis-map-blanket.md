@@ -51,7 +51,7 @@ Airport after the Kentucky Derby on May 4th, 2025. Then, I removed any flights t
 From there, I summarized how many planes were going to each state and used a Streamlit app I created called [Click2Vector](https://www.chiaraphillips.com/#click2vector){: style="color: #0066cc; text-decoration: underline;"} to export a point GeoJSON that contained each state in my dataset.
 
 Then I used "Hub lines" in QGIS to create paths from Louisville to all of the states map the number of flights out of the Louisville Airport 
-after the Kentucky Derby. For styling, I intentionally decided to use the [branding](https://www.kentuckyderby.com/)style="color: #0066cc; text-decoration: underline;"" of the Kentucky Derby, both in color and font to give it some visual cohesion. If you look closely, you may see some little easter eggs as well.
+after the Kentucky Derby. For styling, I intentionally decided to use the [branding](https://www.kentuckyderby.com/){: style="color: #0066cc; text-decoration: underline;"} of the Kentucky Derby, both in color and font to give it some visual cohesion. If you look closely, you may see some little easter eggs as well.
 
 After that, I added labels, text, and symbols to the map within Adobe Illustrator.
 
