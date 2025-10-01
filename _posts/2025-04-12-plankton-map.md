@@ -44,7 +44,12 @@ Copernicus Marine Service data into something data visualization professionals
 
 
 # Introducing the AED Framework
+![AED Device](/assets/images/AED.png)
+<div style="display: flex; justify-content: center;">
+<i>The AED Framework's namesake</i>
+</div>
 
+<br>
 Whenever I begin making a map, I follow what I call "the AED Framework". You may
  have heard of a device called "AEDs" before, which deliver a shock to someone's
   heart when their heart isn't beating effectively. In the same way, we can use 
@@ -90,7 +95,8 @@ When I think about my audience, questions I ask myself include:
 •  What tone makes sense?
 
 
-
+![Ocean & Maps](/assets/images/Audience.png)
+<br>
 In this case, I knew my audience would be (geospatial) data visualization professionals,
  so they'd likely have backgrounds in QGIS or similar softwares. I assumed they 
  would need more context on ocean science and export automation, and that I'd have 
@@ -150,13 +156,13 @@ I did research on:
 
 I also met with an ocean scientist at Mercator Ocean who studies this phenomenon, and 
 created a line chart to help me isolate what period to map.
-
+<br>
 
 <iframe title="2024 Chlorophyll-a concentration in the North Atlantic" aria-label="Line chart" id="datawrapper-chart-lzCHl" src="https://datawrapper.dwcdn.net/lzCHl/4/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="461" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}})}();
 </script>
 
 
-
+<br>
 
 This information helped me make better informed decisions on what region, time period, 
 legend scale, legend colors, and tone to give my map piece. I learned that phytoplankton
@@ -185,6 +191,7 @@ The last letter in our AED framework, D, stands for **Design**. The two concepts
 • Is my map **accessible**?
 
 
+![AED Device](/assets/images/Aurora.png)
 
 The colors from my legend were sampled from pictures of Aurora borealis, since 
 I thought satellite imagery I had seen of Plankton blooms really looked like the 
@@ -214,19 +221,27 @@ sizes on screens to contrast, animation accessibility (avoiding flashes), intern
 
 
 # Results
-
-
-
-
-
-Slide layout shown in the webinar
 I created the final map by using exporting a Zarr file over my area of interest and time period from the Copernicus Marine Data Store using their Python API. I created a script to analyze the chlorophyll-a concentration of each 10-degree section of the North Atlantic Ocean, and exported each daily concentration as a map to style in QGIS.
 
 In QGIS, I styled 1 raster and copy/pasted the style to the rest of my rasters and used the Globe Builder plugin to create a single layout. From there, I used the Python console to automate the export each raster within my layout.
 
 I created an Illustrator layout and automated the linking of all of my QGIS maps in Illustrator using Javascript. Lastly, I animated each final map PNG in Adobe Premiere.
 
-The final animated map presented a daily view of phytoplankton bloom distribution 
+
+<div style="display: flex; justify-content: center;">
+<iframe width="560" height="315" src="https://video.wixstatic.com/video/2e8480_09a74a7288ef429f94b4935a24d0aabe/1080p/mp4/file.mp4" title="Phytoplankton Bloom" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="margin-bottom: 2rem;"></iframe>
+</div>
+<div style="text-align: center; margin-top: -1rem; margin-bottom: 2rem;">
+<i>Slide Format</i>
+</div>
+
+<div style="display: flex; justify-content: center;">
+<iframe width="560" height="315" src="https://video.wixstatic.com/video/2e8480_88d09886eca8466bbdc5e3600fa9c598/720p/mp4/file.mp4" title="Phytoplankton Bloom" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="margin-bottom: 2rem;"></iframe>
+</div>
+<div style="text-align: center; margin-top: -1rem; margin-bottom: 2rem;">
+<i>Instagram/Mobile Format</i>
+</div>
+The final animated maps presented a daily view of phytoplankton bloom distribution 
 between March and June 2024, revealing seasonal changes in a way that was both 
 visually engaging and scientifically sound. It encouraged the data visualization
  community to explore Copernicus Marine Service datasets beyond purely scientific
@@ -250,10 +265,14 @@ I find animated maps extremely engaging (and fun to make), but in webinar contex
 Speaking of which, if you're interested in creating your own plankton map, you can 
 check out the resources I created as part of this project:
 
-[Jupyter Notebook tutorials](https://github.com/chiara-phillips/qgis-to-illustrator-tools){: style="color: #0066cc; text-decoration: underline;"} I created for exporting data from the Copernicus Marine Service
+[Jupyter Notebook tutorials](https://github.com/chiara-phillips/qgis-to-illustrator-tools){: style="color: #0066cc; text-decoration: underline;"} I created for exporting data from the Copernicus Marine Service and:
 
-Youtube video tutorial covering QGIS and Illustrator styling, export automations, and Premiere animation:
-
+<div style="display: flex; justify-content: center;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/A_0wvyBF3I0?si=rj2DAWOD4jHt7cJ9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<div style="text-align: center; margin-top: 1rem; margin-bottom: 2rem;">
+<i>Video tutorial covering styling, export automations, and animation</i>
+</div>
 
 If you do try this out for yourself (or run into any bugs along the way), let me know! I'm excited to see your plankton maps in the wild! ✨
