@@ -1,6 +1,6 @@
 ---
 layout: post
-title: FlightRadar24, Illustrator, & My 2025 NACIS Map Quilt Tile
+title: FlightRadar24, Illustrator, & NACIS Cartographic Community
 image: /assets/images/KentuckyDerbyFlights_NACIS2025_Print.png
 tags:
   - portfolio
@@ -27,6 +27,7 @@ published: true
   margin-bottom: 1.5rem !important;
 }
 </style>
+# About this map
 This year, I contributed a tile to the NACIS Map Quilt for the conference in Louisville, KY!
 
 At first, I wasn't sure what I wanted to map. I didn't know much about the city

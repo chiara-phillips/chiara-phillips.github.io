@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The AED Framework, Automation, & Phytoplankton Mapping
+title: Cartographic Approach, Automation, & Creative Mapping
 image: /assets/images/plankton-portrait.gif
 tags:
   - portfolio
@@ -28,6 +28,7 @@ author: By Chiara Phillips
   margin-bottom: 1.5rem !important;
 }
 </style>
+# About this map
 In this post, I want to take some time to talk at length about my cartographic process,
 particularly for a recent freelance client I had!
 

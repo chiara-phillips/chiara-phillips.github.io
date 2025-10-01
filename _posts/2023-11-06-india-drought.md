@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Quick Turnaround Map: India's Soybeans Face the Worst Dryspell in Decades"
+title: "Quick Turnaround Mapping"
 image: /assets/images/india-spi.png
 tags:
   - portfolio
