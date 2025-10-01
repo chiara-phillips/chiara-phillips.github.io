@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The AED Framework, Python Map Automation, & Phytoplankton Mapping
+title: The AED Framework, Automation, & Phytoplankton Mapping
 image: /assets/images/plankton-portrait.gif
 tags:
   - portfolio
@@ -220,6 +220,11 @@ sizes on screens to contrast, animation accessibility (avoiding flashes), intern
 
 
 Slide layout shown in the webinar
+I created the final map by using exporting a Zarr file over my area of interest and time period from the Copernicus Marine Data Store using their Python API. I created a script to analyze the chlorophyll-a concentration of each 10-degree section of the North Atlantic Ocean, and exported each daily concentration as a map to style in QGIS.
+
+In QGIS, I styled 1 raster and copy/pasted the style to the rest of my rasters and used the Globe Builder plugin to create a single layout. From there, I used the Python console to automate the export each raster within my layout.
+
+I created an Illustrator layout and automated the linking of all of my QGIS maps in Illustrator using Javascript. Lastly, I animated each final map PNG in Adobe Premiere.
 
 The final animated map presented a daily view of phytoplankton bloom distribution 
 between March and June 2024, revealing seasonal changes in a way that was both 
@@ -240,8 +245,6 @@ I find animated maps extremely engaging (and fun to make), but in webinar contex
    static maps could make more sense. You can keep these learnings in mind for your
     next map!
 
-
-
 # Next Steps
 
 Speaking of which, if you're interested in creating your own plankton map, you can 
@@ -252,33 +255,5 @@ check out the resources I created as part of this project:
 Youtube video tutorial covering QGIS and Illustrator styling, export automations, and Premiere animation:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/A_0wvyBF3I0?si=rj2DAWOD4jHt7cJ9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
-0:00 Intro
-
-0:03 Globe Builder Plugin in QGIS
-
-0:36 Graticule Symbology
-
-1:04 Creating a QGIS Print Layout
-
-1:13 Raster Symbology
-
-3:33 Automating QGIS Print Layout Export
-
-4:10 Setting up Adobe Illustrator Export Script
-
-4:37 Creating Illustrator Layout
-
-4:47 Illustrator Background Styling
-
-5:22 Creating Globe Atmospheric Effects in Illustrator
-
-6:14 Creating Title, Text Boxes & Legend
-
-7:12 Automating Illustrator Layout Export
-
-7:29 Animating in Adobe Premiere
-
 
 If you do try this out for yourself (or run into any bugs along the way), let me know! I'm excited to see your plankton maps in the wild! ✨
