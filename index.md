@@ -8,7 +8,7 @@ layout: home
   
   <div style="flex: 1; min-width: 300px; text-align: left; max-width: none;">
     <p style="font-size: 1.1rem; line-height: 1.6; margin-bottom: 1rem; color: #374151; text-align: center;">
-      Geographer turned designer, working at the intersection of data visualization, information design, and GIS, remote sensing, and Python-powered storytelling.
+      Geographer & programmer turned designer, specializing in cartographic storytelling.
     </p>
     
                          <p style="font-size: 1.1rem; margin-bottom: 0.5rem; color: black; text-align: center;">
